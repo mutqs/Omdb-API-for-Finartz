@@ -1,0 +1,70 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif, ;
+}
+
+
+.form-group{
+    width: 400px;
+    
+}
+
+.film-container {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+
+.card-header {
+    text-align: center;
+    align-items: center;
+}
+
+.card-body {
+    align-items: center;
+}
+
+
+.fav-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    box-shadow: 2px 2px 2px ;
+    border: solid 1px black;
+}
+
+h4 {
+    text-align: left;
+}
+
+.conatiner-title {
+    margin: 500px 
+}
+
+.heart i.fa-heart{
+    color:red ;
+  
+}
+
+.heart {
+    animation: heart 0.5s linear;
+}
+
+@keyframes heart
+{
+    
+    0%{
+       transform:  scale(1);
+    }
+
+    50% {
+       transform:  scale(1.9) ;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+

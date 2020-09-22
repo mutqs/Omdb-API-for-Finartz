@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body onload="init()">
+
+
+
+    <div class="container form-container mt-4">
+        <h2> OMDb project for Finartz </h2>
+        <div class="form-group mt-4  d-flex justify-content-between">
+            <input type="search" placeholder="Please write a movie name..." class="form-control">
+            <button class="btn btn-danger btn-search ml-2 ">Search</button>
+        </div>
+
+    </div>
+
+    <div class="container history-container d-flex justify-content-left"></div>
+
+
+    <div class="container container-title">
+        <div class="filmTitle">
+            <h4 class="filmlist">Film List</h4>
+            <hr>
+        </div>
+    </div>
+
+
+    <div class="container film-container"></div>
+
+
+
+    <div class="container container-title">
+        <div class="filmtitle">
+            <h4 class="filmlist">Favorite List</h4>
+            <hr>
+        </div>
+    </div>
+
+
+
+    <div class="container fav-container"></div>
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
